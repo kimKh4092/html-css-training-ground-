@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    height: 200vh;
+}
+
+.boxes {
+    border: 3px solid lightblue;
+    position: relative;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box1 {
+    background-color: black;
+
+}
+
+.box2 {
+    background-color: blueviolet;
+    /* position: relative;
+    left: 4rem;
+    top: 5rem;
+    z-index: 1; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    ;
+}
+
+.box3 {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+}

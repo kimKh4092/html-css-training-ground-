@@ -3,4 +3,11 @@
     height: 5rem;
     background-color: gold;
     float: left;
+    margin-right: 0.5rem;
+    /*add space*/
+
+}
+
+.clear {
+    clear: left;
 }
