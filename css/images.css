@@ -1,0 +1,11 @@
+body {
+    background: url(../images/bg-paper.jpg);
+    background-repeat: no-repeat;
+    background-position: 1000px 100px;
+    background-size: cover;
+}
+
+/* 
+.meal {
+    width: 100vw;
+} */
