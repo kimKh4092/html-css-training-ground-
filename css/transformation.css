@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: transform 0.5s linear 1s, background 0.5s;
+}
+
+.box:hover {
+    transform: rotate(45deg);
+    background: gold;
+
+}
